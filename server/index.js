@@ -9,6 +9,7 @@ const configuration = new Configuration({
 });
 const client = new OpenAIApi(configuration);
 
+
 const app = express();
 app.use(bodyParser.json());
 
